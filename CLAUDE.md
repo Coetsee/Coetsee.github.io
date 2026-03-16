@@ -66,10 +66,29 @@ Push `main` to GitHub. Pages serves `docs/` statically — no build runs on GitH
 
 Open `Coetsee.github.io.Rproj` in RStudio for the best editing experience. Use `quarto preview --port 8080` (port 4242 may not work on this machine).
 
+## Integrating External Projects
+
+Analysis projects live in sibling directories (e.g. `C:\Users\hanne\Projects\sonification\`).
+The blog never imports directly from them. The pattern is:
+
+1. **In the project directory**: produce artifacts in an `exports\` folder
+   ```r
+   saveRDS(plot, "exports/plot_main.rds")
+   htmlwidgets::saveWidget(ggplotly(plot), "exports/widget.html", selfcontained = TRUE)
+   ```
+2. **Copy** artifacts into the post folder (`posts\YYYY-MM-DD-slug\`)
+3. **In the post**: load pre-computed artifacts, write the narrative
+   ```r
+   p <- readRDS("plot_main.rds")
+   ggplotly(p)
+   ```
+
+Each project directory should have its own `CLAUDE.md` with an **Exports** section.
+Keep project sessions (analysis) and blog sessions (writing) separate.
+
 ## Status (as of March 2026)
 
 - Site is live at https://coetsee.github.io
-- Quarto migration complete; Jekyll fully removed
-- One placeholder post exists (`posts/2025-04-28-welcome/`) — replace with real content
-- About page written; no profile image added yet
-- Next steps: create first real project post with embedded R visualisation
+- Three posts published: welcome, Football/Camus (2020), Good Will Hunting/qualia (2021)
+- Four incomplete WordPress drafts saved locally — finish and publish when ready
+- About page written; no profile image yet
