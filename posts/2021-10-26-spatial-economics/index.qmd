@@ -1,0 +1,21 @@
+---
+title: "Spatial Economics — A Brief Overview"
+date: 2021-10-26
+description: "On New Economic Geography, agglomeration, and what satellite data can tell us about inequality in South Africa."
+categories: [economics]
+draft: true
+---
+
+Geographic area has become an increasingly important aspect of the way in which social scientists attempt to explain how resources are distributed. This makes sense: economic activity has to happen *somewhere*, after all. The question is whether some areas are more conducive to luring or inducing economic activity than others, and if this is the case, what the determinants are that underlie this unequal dispersion. This links to the broader question on why some regions develop whilst others do not — an extremely complicated question to find convincing empirical answers to.
+
+One of the contemporary approaches to this question is called New Economic Geography, and is concerned with agglomerating and dispersion forces. Agglomeration is a term used by economists to describe the concentration of physical capital, firms, workers and consumers in certain geographical areas. In other words, economic activity is clustered at certain locations due to 'agglomerating forces' such as gains in network effects, lower transport costs, greater labour supply and information spill-overs. New Economic Geographers claim that these agglomeration effects explain the differences that we see between urban and rural areas when it comes to economic measures such as standards of living and goods prices.
+
+The availability of new types of data and methods have made the studying of spatial economics more easily possible than ever before. Recently, I've worked with nightlight luminosity data, derived from remote sensing (satellite) data. The plot below showcases luminosity in South Africa. As one would expect, night lights are concentrated in metropolitan areas.
+
+<!-- TODO: add nightlight luminosity plot -->
+
+This presents a potential opportunity for social scientists to incorporate explicitly spatial elements in their analyses of socio-economic phenomena. This, combined with the bourgeoning fields of spatial econometrics and machine learning methods, may become increasingly important both in questions of causal inference, as well as prediction-type problems.
+
+An article by Stellenbosch University Professor Dieter von Vintel showcases the potential of spatial economics in answering policy-relevant questions. The article, titled *Long-run spatial inequality in South Africa: early settlement patterns and separate development*, discusses some of the spatial determinants that explain the extreme levels of inequality seen in South Africa in the modern era. Von Vintel finds that apartheid-era institutional failures interrupted the agglomeration process in former homeland areas. In other words, the industrialisation
+
+<!-- TODO: complete this section -->

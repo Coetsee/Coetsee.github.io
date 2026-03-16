@@ -1,0 +1,29 @@
+---
+title: "On Hesse, Psychoanalysis and the Bildungsroman"
+date: 2024-02-27
+description: "Why Hermann Hesse's characters resonate, and what psychoanalysis has to do with it."
+categories: [philosophy, literature]
+draft: true
+---
+
+Hermann Hesse has long been among my favourite authors, for reasons not always clear to me. I know that I find his characters relatable — they are generally contemplative about the tensions and contradictions implicit in their psyches, which to me indicates a healthy sense of self-awareness that aligns with my values.
+
+However, these characters are also drawn to — or troubled by — the seemingly weak veil of physical reality, the 'real world'. The realm of dreams, myth and mysticism play an important role in many of his characterisations.
+
+So, the purpose of this foray is to come to a personal understanding. Why do I relate to Hesse's work so much?
+
+## Characters
+
+<!-- TODO -->
+
+## Writing Style
+
+His writing style suits the tension implicit in his themes, as he makes liberal use of exclamation points to highlight moments of emotion.
+
+<!-- TODO: expand -->
+
+## Psychoanalysis
+
+Now, why are we talking about this at all? Well, it's because I don't know what to make of psychoanalysis. I am of course no expert in this domain, so further research may prove useful.
+
+<!-- TODO: develop the connection between Hesse, Jungian psychology, and the Bildungsroman form -->

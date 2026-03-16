@@ -9,6 +9,22 @@
 .Rproj.user/
 *.Rproj
 
+# Claude Code local settings
+.claude/
+
+# Environment / secrets (if ever added)
+.env
+.env.*
+
+# Data files that may contain personal/sensitive content
+*.csv
+*.xlsx
+*.xls
+data/
+
+# WordPress exports
+*.xml
+
 # System
 .DS_Store
 Thumbs.db

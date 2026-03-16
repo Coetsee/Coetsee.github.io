@@ -1,0 +1,50 @@
+---
+title: "On Pain, and Being Known"
+date: 2025-04-30
+description: "On chronic pain, Merleau-Ponty, the five stages of grief, and what it means to be known."
+categories: [philosophy]
+draft: true
+---
+
+A little over a decade ago, I suffered an unfortunate injury to my left knee. After surgery and ensuing complications, I developed trauma-induced osteoarthritis (OA) — a [diagnosis rare for someone in their teens](https://www.who.int/news-room/fact-sheets/detail/osteoarthritis). This event would alter the very trajectory of my life, and would introduce one of my most constant companions: chronic pain.
+
+None of us are new to pain. However, chronic sufferers know better than most that pain is as much mental as it is physical. Injury can instigate serious emotional distress and turmoil — rupturing how one interacts with the world. This is compounded over time for chronic sufferers. Jennifer Bullington conveys the mental aspects of injury succinctly:
+
+> "The stairs are no longer something I effortlessly take myself up in order to get to my apartment, but rather become a technical problem to be negotiated... When the purely instrumental (going up the stairs) becomes the focus for time, energy and thought, I experience a shrinking of my world, a shrinkage which fetters me to the here and now in an unnatural way."
+>
+> — Jennifer Bullington, *Embodiment and Chronic Pain: Implications for Rehabilitation Practice* ([2009](https://link.springer.com/article/10.1007/s10728-008-0109-5))
+
+Pain thereby not only limits the conscious choices available to you, it also impacts the subconscious — in how your body adjusts to avoid it^[For instance, my entire physiology changed to compensate for the affected joint, leading to further complications and additional injury in the hip, ankle and lower back.], how it demands your attention when navigating everyday tasks, how you have to perform mental arithmetic before committing to activities. Both the subconscious and conscious impact your sense of identity, and ultimately, your wellbeing.^[Bullington continues, asserting that "(p)ersons with illness suffer not only from the physical aspects of pain and discomfort but also from a loss of identity where one feels alienated and detached from things that used to give meaning to one's life."]
+
+In my case, every step carries a cost. I am entirely prohibited from high-impact exercises such as running, squatting and jumping, and therefore most sports — the things I most enjoy doing. Moreover, joint instability and pain becomes more debilitating over time, leading to greater losses in function and more 'expensive' trade-offs in quality of life. This knowledge is not easy to understand or to accept, and has demanded much of me over the years. As is my nature (oof), I have been on the lookout for ways with which to make sense of my experience.
+
+## 1) Mind-Body-World
+
+At times, it feels intuitive to separate our bodies from our minds when perceiving and experiencing the world. This may be harmful for injury rehabilitation and management, especially when we consider the mind as subject (*the real me*), and the body as object (*external to the real me*). Maurice Merleau-Ponty, a phenomenologist and philosopher, wrote extensively about the relationship between our bodies, minds and how we perceive the world. For Merleau-Ponty, the body is the primary source of our engagement and perception of the physical reality (in contrast with the primary *cogito*, or *consciousness*, emphasised by other thinkers).^[Check out the Mind-Body problem by Descartes for some background.] We feel and experience the world as we consider it consciously. There is no duality. We don't *have* bodies, we *are* our bodies. In this conception, an injury or chronic pain can act like a wedge between our bodies and our experience of the world, forcing us to think of our bodies as something detached from the world. Bullington says the following: "In health, I am my body, but when my body doesn't work, I experience a split between myself and my body, and my body is no longer me. I take this malfunctioning body to the clinician and ask her to fix it, so that I can once again become one with my body." In simpler terms, when you are healthy, you don't notice your body, it simply functions. In chronic pain, your body does not fade into the background, it is top-of-mind, an obstruction to normal living.
+
+How then to mend this split? Bullington suggests that rehabilitation happens when the body is 'reinserted into the flow of experience' — when it exits out of constant focus into the background of experience. This requires reframing, from managing pain (akin to a kind of negative obligation) to rekindling meaning, agency, and connection. Personally, I have chosen to exert myself in ways that I know carry the heavy costs of immediate and future discomfort. Multiday hikes in the mountains and occasional five-a-side football games are intricately linked with some of my most favourite moments, and allow me to reassert agency and connection to existence.
+
+## 2) The Five Stages
+
+Some mental health practitioners suggest thinking of injury as loss. The loss of a part of oneself, of choices, of function. The Five Stages of Grief is a famous framework through which the response to loss can be described. Here are some interpretations of injury using this framework: *Denial* that the pain is not the natural state of things, or won't dissipate over time (*"just pretend it's normal, grit your teeth, it'll pass"*); *Anger* at the underlying perceived injustice of your affliction (*"why did this happen to me?"*); *Bargaining* and *what if's* (*"if only I could afford seeing a biokineticist every day, my pain would be diminished"*); *Depression* because of limited function (*"I can no longer do the thing I enjoyed most of all, and nothing I do can recover it"*); and lastly, *Acceptance* — the feeling that this pain is now part of me, it has internally been incorporated into my experience of the world. Sometimes, I feel as if I'm experiencing all of the stages simultaneously. This framework has been helpful to combat a big temptation in dealing with chronic pain — that of trivializing or downplaying your experience. It is easy to dismiss your experience in the face of the suffering evident in society, but this is not helpful. I *feel* these stages, and that's real enough.
+
+## 3) Searching for Meaning
+
+<!-- TODO: complete this section -->
+
+## On Being Known
+
+It is not easy to speak about issues as personal as one's struggles with health and suffering. I know this, because I am typing about it now, and I don't like it. Yet, I believe my experience to be rare but ultimately non-unique, which is why I am typing this. Perhaps, my at times lackluster typing can instigate some understanding toward those with similar experiences.
+
+Moreover, and like many posts on this page, this is an introspective exercise for me. I have traditionally not enjoyed sharing too much about myself, preferring to be veiled by mystery and hopefully foreboding, like some kind of wild animal or perhaps a seer. In recent times, however, I have warmed to the idea of being more transparent about my experience of the world, in all of its facets. The person that I strive to be is open to sharing and to listening, and this post is an attempt to do so. I believe we all have interesting ways in which we consider and make meaning of our experiences. And, as I know with my own, we should allow our understanding of pain and of ourselves to morph and change as we do.
+
+> "To be loved but not known is comforting but superficial. To be known and not loved is our greatest fear. But to be fully known and truly loved is, well, a lot like being loved by God. It is what we need more than anything. It liberates us from pretense, humbles us out of our self-righteousness, and fortifies us for any difficulty life can throw at us."
+>
+> — Timothy Keller
+
+---
+
+## References
+
+1. Bullington, J., 2009. Embodiment and chronic pain: Implications for rehabilitation practice. *Health care analysis*, *17*, pp.100-109.
+2. Toadvine, Ted, "Maurice Merleau-Ponty", *The Stanford Encyclopedia of Philosophy* (Winter 2023 Edition), Edward N. Zalta & Uri Nodelman (eds.)
