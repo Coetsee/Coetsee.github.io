@@ -1,0 +1,7 @@
+---
+title: "Welcome"
+date: 2025-04-28
+description: "First post — hello world."
+---
+
+Welcome to Meditations. This is where I'll be writing about data, economics, philosophy, and everything else.

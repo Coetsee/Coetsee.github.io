@@ -1,5 +1,16 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
+# Quarto
+/.quarto/
+*_cache/
+*_files/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# System
+.DS_Store
+Thumbs.db
+
+**/*.quarto_ipynb

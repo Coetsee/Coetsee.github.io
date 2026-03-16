@@ -4,47 +4,51 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Personal blog/portfolio site for Hannes Coetsee, hosted on GitHub Pages at https://coetsee.github.io/. Built with Jekyll 4.4.1 using the Minima theme.
+Personal blog/portfolio for Hannes Coetsee at https://coetsee.github.io/. Built with Quarto, rendered locally to `docs/`, served by GitHub Pages.
 
-## Common Commands
+## Commands
 
 ```bash
-# Install Ruby dependencies
-bundle install
+# Preview with live reload (http://localhost:4242)
+quarto preview
 
-# Local development server (live reload at http://localhost:4000)
-bundle exec jekyll serve
+# Render entire site to docs/
+quarto render
 
-# Build static site to _site/
-bundle exec jekyll build
-
-# Clear build cache and output
-bundle exec jekyll clean
+# Render a single post
+quarto render posts/YYYY-MM-DD-slug/index.qmd
 ```
 
 ## Architecture
 
-- **Content**: Markdown files in `_posts/` (named `YYYY-MM-DD-title.markdown`) and root-level pages (`about.markdown`, `index.markdown`)
-- **Configuration**: `_config.yml` controls site metadata, theme, and plugins
-- **Output**: Jekyll builds everything into `_site/` — this is what GitHub Pages serves
-- **Theme**: Minima (~2.5) provides all layouts and styles; customizing appearance means overriding theme files locally
-- **Feed**: `jekyll-feed` auto-generates `/feed.xml` (RSS/Atom)
+- `_quarto.yml` — site config: output dir, navbar, format defaults
+- `index.qmd` — home page; auto-generates post listing from `posts/`
+- `about.qmd` — about page
+- `styles.css` — all visual styling (`theme: none` so this controls everything)
+- `posts/` — one subfolder per post (e.g. `posts/2025-06-01-my-post/index.qmd`)
+- `docs/` — rendered output, committed to git, served by GitHub Pages
 
-## Content Authoring
+## Writing a Post
 
-Blog posts require Jekyll front matter:
-
-```yaml
----
-layout: post
-title: "Post Title"
-date: YYYY-MM-DD HH:MM:SS +0200
-categories: category1 category2
----
-```
-
-Pages listed in `_config.yml` under `header_pages` appear in the site navigation.
+1. Create `posts/YYYY-MM-DD-slug/index.qmd`
+2. Add front matter:
+   ```yaml
+   ---
+   title: "Post Title"
+   date: YYYY-MM-DD
+   description: "One-line summary shown on the home page listing."
+   categories: [economics, R]
+   execute:
+     echo: false    # hide code by default; set true to show it
+     warning: false
+     message: false
+   ---
+   ```
+3. Write in markdown; embed R code chunks with triple backtick + `{r}`
+4. Interactive plots: wrap ggplot2 with `ggplotly()`, use `leaflet` maps — they embed automatically
+5. Run `quarto preview` to check, then `quarto render`
+6. Commit both `posts/your-post/` and `docs/`
 
 ## Deployment
 
-Pushing to the `main` branch on GitHub automatically triggers GitHub Pages to rebuild and deploy the site. The `_site/` directory is excluded from version control (`.gitignore`) — GitHub Pages runs its own Jekyll build.
+Push `main` to GitHub. Pages serves `docs/` statically — no build runs on GitHub. GitHub Pages must be configured to serve from `/docs` on `main` (Settings → Pages).

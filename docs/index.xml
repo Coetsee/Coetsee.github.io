@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Meditations</title>
+<link>https://coetsee.github.io/</link>
+<atom:link href="https://coetsee.github.io/index.xml" rel="self" type="application/rss+xml"/>
+<description>Meditations on data, economics, philosophy, and everything else</description>
+<generator>quarto-1.9.35</generator>
+<lastBuildDate>Sun, 27 Apr 2025 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Welcome</title>
+  <link>https://coetsee.github.io/posts/2025-04-28-welcome/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Welcome to Meditations. This is where I’ll be writing about data, economics, philosophy, and everything else.</p>
+
+
+
+ ]]></description>
+  <guid>https://coetsee.github.io/posts/2025-04-28-welcome/</guid>
+  <pubDate>Sun, 27 Apr 2025 22:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

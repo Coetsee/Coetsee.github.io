@@ -1,0 +1,9 @@
+---
+title: "About"
+---
+
+I'm Johannes (Hannes) Coetsee, a proud South African data t(h)inkerer, economist and meandering existentialist. I have experience in geospatial and remote sensing applications in economics, macroeconomics and time series analysis, as well as South African labour markets. I have a deep professional interest in inequality of all kinds.
+
+When I'm not tinkering, I tend to be enamoured by nature and by existence. I like writing, philosophy, music (folk, latin, Americana) and culture more generally. I also enjoy cooking, although my skills are questionable.
+
+Feel free to [contact me](mailto:hannescoetsee@gmail.com).

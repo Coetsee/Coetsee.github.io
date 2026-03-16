@@ -1,0 +1,14 @@
+---
+title: "Meditations"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  fields: [date, title, description]
+  date-format: "MMMM D, YYYY"
+  feed: true
+  filter-ui: false
+  sort-ui: false
+page-layout: full
+title-block-banner: false
+---

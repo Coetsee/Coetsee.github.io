@@ -1,0 +1,160 @@
+/* ============================================================
+   Meditations — minimal overrides on top of Quarto/cosmo
+   ============================================================ */
+
+/* --- Fonts --- */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap');
+
+/* --- Base --- */
+body {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: #1a1a1a;
+  background: #fafaf8;
+}
+
+/* --- Constrain content width --- */
+.container, .container-fluid {
+  max-width: 720px !important;
+}
+
+/* --- Headings --- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-weight: 500;
+  color: #111;
+}
+
+/* --- Navbar --- */
+.navbar {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: #fafaf8 !important;
+  border-bottom: 1px solid #e0e0dc;
+  padding: 0.75rem 1.5rem;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #111 !important;
+  letter-spacing: -0.01em;
+}
+
+.navbar-nav .nav-link {
+  color: #444 !important;
+  font-size: 0.9rem;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #111 !important;
+}
+
+/* --- Links --- */
+a {
+  color: #1a1a1a;
+  text-decoration-color: #aaa;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: #1a1a1a;
+  text-decoration-color: #1a1a1a;
+}
+
+/* --- Blog listing --- */
+.quarto-listing .list-item {
+  border-bottom: 1px solid #e8e8e4;
+  padding: 1.5rem 0;
+}
+
+.quarto-listing .list-item:last-child {
+  border-bottom: none;
+}
+
+.quarto-listing .title a {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: #111;
+}
+
+.quarto-listing .title a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.quarto-listing .listing-date {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 0.82rem;
+  color: #888;
+}
+
+.quarto-listing .description {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* --- Post title block --- */
+#title-block-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e0e0dc;
+}
+
+#title-block-header .title {
+  font-size: 2rem;
+  font-family: 'Inter', system-ui, sans-serif;
+  font-weight: 600;
+}
+
+.quarto-title-meta {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 0.85rem;
+  color: #888;
+}
+
+/* --- Code --- */
+pre {
+  font-size: 0.82rem;
+  background: #f4f4f0;
+  border: none;
+  border-radius: 4px;
+}
+
+code {
+  font-size: 0.85em;
+  background: #f0f0ec;
+  color: #1a1a1a;
+  border-radius: 3px;
+  padding: 0.1em 0.3em;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+}
+
+/* --- Footer --- */
+.nav-footer {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 0.82rem;
+  color: #aaa;
+  border-top: 1px solid #e0e0dc;
+  margin-top: 3rem;
+}
+
+/* --- Figures --- */
+figcaption {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 0.82rem;
+  color: #888;
+  text-align: center;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  body { font-size: 1rem; }
+  #title-block-header .title { font-size: 1.6rem; }
+}
