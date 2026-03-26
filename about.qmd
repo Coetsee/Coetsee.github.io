@@ -6,4 +6,6 @@ I'm Hannes Coetsee, a South African t(h)inkerer, economist and data storyteller.
 
 When I'm not thinkering, I like hiking, writing, philosophy, music (folk, latin and americana) and film. I also enjoy cooking, although my skills are questionable.
 
+I co-authored an [economic note for the SARB](https://www.resbank.co.za/en/home/publications/publication-detail-pages/occasional-bulletin-of-economic-notes/2024/updating-the-sarb-index-of-commodity-prices) on updating the commodity price index. Additional research published internally at the SARB.
+
 Feel free to [contact me](mailto:hannescoetsee@gmail.com).

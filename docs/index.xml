@@ -10,23 +10,7 @@
 <atom:link href="https://coetsee.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Meditations on data, economics, philosophy, and everything else</description>
 <generator>quarto-1.9.35</generator>
-<lastBuildDate>Sun, 27 Apr 2025 22:00:00 GMT</lastBuildDate>
-<item>
-  <title>Welcome</title>
-  <link>https://coetsee.github.io/posts/2025-04-28-welcome/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Welcome to Meditations. This is where I’ll be writing about data, economics, philosophy, and everything else.</p>
-
-
-
- ]]></description>
-  <guid>https://coetsee.github.io/posts/2025-04-28-welcome/</guid>
-  <pubDate>Sun, 27 Apr 2025 22:00:00 GMT</pubDate>
-</item>
+<lastBuildDate>Sun, 05 Sep 2021 22:00:00 GMT</lastBuildDate>
 <item>
   <title>The Value of Experience — Good Will Hunting and What it Means to ‘Know’</title>
   <link>https://coetsee.github.io/posts/2021-09-06-the-value-of-experience/</link>
