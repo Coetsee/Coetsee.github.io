@@ -1,0 +1,58 @@
+---
+title: "Hearing the Yield Curve"
+date: 2026-04-07
+description: "Mapping South Africa's government bond yield curve to sound — what seven years of monetary policy sounds like."
+categories: [economics, data, music]
+---
+
+What if you could *hear* an economy instead of reading about it?
+
+This is the first post in a series on economic sonification — the practice of turning time-series data into sound. The idea is simple: if a chart lets you *see* how a variable moves over time, a sonification lets you *hear* it. Different signals. Different intuitions.
+
+This post is about the South African government bond yield curve. No technical details — just what it sounds like, why, and what the sound reveals. The technical write-up follows in [Part 2](#).
+
+## What is a yield curve?
+
+When the South African government borrows money, it pays interest. The rate it pays depends on how long it borrows for. Borrow for three months: one rate. Borrow for thirty years: a higher one, usually. Plot those rates against maturity and you get the yield curve.
+
+Its *shape* is what matters. A steeply upward-sloping curve — where long-term rates are much higher than short-term rates — signals that investors expect growth and inflation ahead. A flat or inverted curve is a warning sign: it often precedes recessions, as markets price in future rate cuts to stimulate a weakening economy.
+
+## The mapping
+
+The idea for this sonification comes from a Financial Times piece on US yield curves. The mapping is deliberately simple:
+
+**Each month plays as a short musical phrase.** Five notes, one per maturity — 3 months, 5 years, 10 years, 20 years, 30 years — played in a quick left-to-right sweep. The shape of the phrase mirrors the shape of the curve. A steep curve sounds like an ascending run. A flat curve sounds nearly monotone. An inverted curve descends.
+
+**The harmony shifts with the economic regime.** When the curve is steep — a sign of expansion — the music is in a bright major scale. When the curve flattens or compresses — a sign of stress — it moves toward minor. The colour of the sound tracks the shape of the economy.
+
+That is the entire rule set. Curve shape equals melody. Regime equals harmony. Everything else is stripped away.
+
+## What you are hearing and seeing
+
+The video below animates the yield curve month by month from January 2019 to April 2026, with the music playing in sync. Each dot on the curve pulses as its note sounds, sweeping left to right. The strip at the bottom shows the spread between the 30-year and 3-month yields over the full period — the wider it is, the steeper the curve, and the brighter the music.
+
+<video controls width="100%" style="border-radius: 8px; margin: 1.5rem 0;">
+  <source src="sa_yc_ft_v4_final.mp4" type="video/mp4">
+</video>
+
+## The South African narrative
+
+Seven years of monetary policy compressed into one minute.
+
+**2020 — The Covid shock.** The SARB cuts the repo rate from 6.25% to a historic low of 3.50% across five emergency meetings. The arpeggio collapses toward monotone as the short end of the curve falls faster than the long end. The music darkens.
+
+**2021–2023 — The hiking cycle.** With inflation surging, the SARB begins one of its most aggressive tightening cycles in decades, raising the repo rate to a peak of 8.25% by May 2023. The short end rises sharply while the long end moves more slowly, compressing the spread. The arpeggio flattens. The music tightens.
+
+**2024–2026 — Resolution.** The GNU is formed in mid-2024 and confidence returns. The SARB begins cutting in September 2024. The spread widens again, the curve steepens, and the arpeggio opens back up. The music resolves toward major.
+
+## What sound adds
+
+A chart of these same events would show you the same facts. But the sound compresses seven years into one minute and makes the *shape* of the economic cycle — compression, release — directly perceptible rather than something you have to read off an axis.
+
+Whether that is useful or just interesting is a fair question. My view is that it is most useful for communicating with people who find charts inert — and most interesting as a design problem in its own right.
+
+[Part 2](#) goes into the technical decisions: how the mapping was built, what was tried and discarded, and how to replicate it.
+
+---
+
+*Data: SARB. Code: [economy-sonification](https://github.com/Coetsee/economy-sonification).*

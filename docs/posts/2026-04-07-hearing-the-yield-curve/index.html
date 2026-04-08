@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-04-07">
+<meta name="description" content="Mapping South Africa’s government bond yield curve to sound — what seven years of monetary policy sounds like.">
 
-<title>Meditations</title>
+<title>Hearing the Yield Curve – Meditations</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,25 +28,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-46f66b053e56abd73bb6e954d61a315b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-46f66b053e56abd73bb6e954d61a315b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,78 +72,20 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
+<link rel="stylesheet" href="../../styles.css">
+</head>
 
-<link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="Meditations" href="index.xml" data-external="1"></head>
-
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Meditations</span>
     </a>
   </div>
@@ -154,15 +96,15 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cv.html"> 
+    <a class="nav-link" href="../../cv.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -173,24 +115,39 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="ZGF0YQ==">data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZWNvbm9taWNz">economics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bXVzaWM=">music <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cGhpbG9zb3BoeQ==">philosophy <span class="quarto-category-count">(2)</span></div></div></div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Meditations</h1>
+<h1 class="title">Hearing the Yield Curve</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">economics</div>
+    <div class="quarto-category">data</div>
+    <div class="quarto-category">music</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Mapping South Africa’s government bond yield curve to sound — what seven years of monetary policy sounds like.
+  </div>
 </div>
 
 
-
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 7, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -200,66 +157,47 @@ window.Quarto = {
 </header>
 
 
+<p>What if you could <em>hear</em> an economy instead of reading about it?</p>
+<p>This is the first post in a series on economic sonification — the practice of turning time-series data into sound. The idea is simple: if a chart lets you <em>see</em> how a variable moves over time, a sonification lets you <em>hear</em> it. Different signals. Different intuitions.</p>
+<p>This post is about the South African government bond yield curve. No technical details — just what it sounds like, why, and what the sound reveals. The technical write-up follows in <a href="#">Part 2</a>.</p>
+<section id="what-is-a-yield-curve" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-a-yield-curve">What is a yield curve?</h2>
+<p>When the South African government borrows money, it pays interest. The rate it pays depends on how long it borrows for. Borrow for three months: one rate. Borrow for thirty years: a higher one, usually. Plot those rates against maturity and you get the yield curve.</p>
+<p>Its <em>shape</em> is what matters. A steeply upward-sloping curve — where long-term rates are much higher than short-term rates — signals that investors expect growth and inflation ahead. A flat or inverted curve is a warning sign: it often precedes recessions, as markets price in future rate cuts to stimulate a weakening economy.</p>
+</section>
+<section id="the-mapping" class="level2">
+<h2 class="anchored" data-anchor-id="the-mapping">The mapping</h2>
+<p>The idea for this sonification comes from a Financial Times piece on US yield curves. The mapping is deliberately simple:</p>
+<p><strong>Each month plays as a short musical phrase.</strong> Five notes, one per maturity — 3 months, 5 years, 10 years, 20 years, 30 years — played in a quick left-to-right sweep. The shape of the phrase mirrors the shape of the curve. A steep curve sounds like an ascending run. A flat curve sounds nearly monotone. An inverted curve descends.</p>
+<p><strong>The harmony shifts with the economic regime.</strong> When the curve is steep — a sign of expansion — the music is in a bright major scale. When the curve flattens or compresses — a sign of stress — it moves toward minor. The colour of the sound tracks the shape of the economy.</p>
+<p>That is the entire rule set. Curve shape equals melody. Regime equals harmony. Everything else is stripped away.</p>
+</section>
+<section id="what-you-are-hearing-and-seeing" class="level2">
+<h2 class="anchored" data-anchor-id="what-you-are-hearing-and-seeing">What you are hearing and seeing</h2>
+<p>The video below animates the yield curve month by month from January 2019 to April 2026, with the music playing in sync. Each dot on the curve pulses as its note sounds, sweeping left to right. The strip at the bottom shows the spread between the 30-year and 3-month yields over the full period — the wider it is, the steeper the curve, and the brighter the music.</p>
+<video controls="" width="100%" style="border-radius: 8px; margin: 1.5rem 0;">
+<source src="sa_yc_ft_v4_final.mp4" type="video/mp4">
+</video>
+</section>
+<section id="the-south-african-narrative" class="level2">
+<h2 class="anchored" data-anchor-id="the-south-african-narrative">The South African narrative</h2>
+<p>Seven years of monetary policy compressed into one minute.</p>
+<p><strong>2020 — The Covid shock.</strong> The SARB cuts the repo rate from 6.25% to a historic low of 3.50% across five emergency meetings. The arpeggio collapses toward monotone as the short end of the curve falls faster than the long end. The music darkens.</p>
+<p><strong>2021–2023 — The hiking cycle.</strong> With inflation surging, the SARB begins one of its most aggressive tightening cycles in decades, raising the repo rate to a peak of 8.25% by May 2023. The short end rises sharply while the long end moves more slowly, compressing the spread. The arpeggio flattens. The music tightens.</p>
+<p><strong>2024–2026 — Resolution.</strong> The GNU is formed in mid-2024 and confidence returns. The SARB begins cutting in September 2024. The spread widens again, the curve steepens, and the arpeggio opens back up. The music resolves toward major.</p>
+</section>
+<section id="what-sound-adds" class="level2">
+<h2 class="anchored" data-anchor-id="what-sound-adds">What sound adds</h2>
+<p>A chart of these same events would show you the same facts. But the sound compresses seven years into one minute and makes the <em>shape</em> of the economic cycle — compression, release — directly perceptible rather than something you have to read off an axis.</p>
+<p>Whether that is useful or just interesting is a fair question. My view is that it is most useful for communicating with people who find charts inert — and most interesting as a design problem in its own right.</p>
+<p><a href="#">Part 2</a> goes into the technical decisions: how the mapping was built, what was tried and discarded, and how to replicate it.</p>
+<hr>
+<p><em>Data: SARB. Code: <a href="https://github.com/Coetsee/economy-sonification">economy-sonification</a>.</em></p>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="ZWNvbm9taWNzJTJDZGF0YSUyQ211c2lj" data-listing-date-sort="1775512800000" data-listing-file-modified-sort="1775581049337" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="671">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2026-04-07-hearing-the-yield-curve/index.html" class="no-external">Hearing the Yield Curve</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/2026-04-07-hearing-the-yield-curve/index.html" class="no-external">
-<p>Mapping South Africa’s government bond yield curve to sound — what seven years of monetary policy sounds like.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2026-04-07-hearing-the-yield-curve/index.html" class="no-external">
-<div class="listing-date">
-April 7, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="cGhpbG9zb3BoeQ==" data-listing-date-sort="1630879200000" data-listing-file-modified-sort="1773672180636" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="902">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2021-09-06-the-value-of-experience/index.html" class="no-external">The Value of Experience — Good Will Hunting and What it Means to ‘Know’</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/2021-09-06-the-value-of-experience/index.html" class="no-external">
-<p>On Frank Jackson’s qualia, Mary’s Room, and what a park bench scene in Good Will Hunting tells us about the limits of knowledge.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2021-09-06-the-value-of-experience/index.html" class="no-external">
-<div class="listing-date">
-September 6, 2021
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="cGhpbG9zb3BoeQ==" data-listing-date-sort="1603576800000" data-listing-file-modified-sort="1773672137526" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="940">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2020-10-25-football-absurdity-and-camus/index.html" class="no-external">Football, Absurdity and Camus</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/2020-10-25-football-absurdity-and-camus/index.html" class="no-external">
-<p>On the absurdity of football, Albert Camus, and why Sisyphus might have been kicking a ball around all along.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2020-10-25-football-absurdity-and-camus/index.html" class="no-external">
-<div class="listing-date">
-October 25, 2020
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -683,5 +621,5 @@ October 25, 2020
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
