@@ -23,7 +23,17 @@
 data/
 
 # WordPress exports
-*.xml
+# *.xml  (disabled — Quarto RSS feed needs docs/index.xml committed)
+
+# Draft posts — rendered to docs/ by quarto preview but not ready to publish.
+# To publish a post: remove its line here, quarto render, commit docs/.
+docs/posts/2020-11-19-economics-of-music-sampling/
+docs/posts/2021-10-26-spatial-economics/
+docs/posts/2024-02-27-on-hesse/
+docs/posts/2025-04-30-on-pain-and-being-known/
+docs/posts/2026-04-20-what-is-sonification/
+docs/drafts.html
+docs/ideas/
 
 # System
 .DS_Store
