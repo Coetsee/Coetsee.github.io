@@ -11,7 +11,7 @@ execute:
 ---
 
 
-Every chart we've ever seen has made a silent choice: translate numbers into visuals. Colour, positioning, slope, the full language underlying visualisation. Makes sense, it feels so natural. Vision is only one channel into the human nervous system, however. Many of us also have ears. The average number of ears per person is slightly less than 2 probably. Not bad. 
+Every chart we've ever seen has made a silent choice: translate numbers into _visuals_. Colour, positioning, slope, the language underlying visualisation. Makes sense, it feels so natural. Vision is only one channel into the human nervous system, however. Many of us also have ears. The average number of ears per person is slightly less than 2, so I've heard.
 
 I've been interested in sound as a way of conveying feeling my entire life. I like music. And I like stories. 
 
