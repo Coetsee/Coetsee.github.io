@@ -2,10 +2,32 @@
 title: "About"
 ---
 
-I'm Hannes Coetsee, a South African t(h)inkerer, economist and data storyteller. I have experience in geospatial and remote sensing applications in central banking, time series analysis, and labour market research. My professional interests are often shaped by economic development, fairness and equality. 
+:::: {.about-header}
+::: {.about-photo-col}
+![](blog_photo.jpg){.about-photo}
+:::
+::: {.about-text-col}
+I'm Hannes Coetsee, a South African t(h)inkerer, economist and data storyteller. I have experience in geospatial and remote sensing applications in central banking, time series analysis, and labour market research. My professional interests are often shaped by economic development, fairness and equality.
 
-When I'm not thinkering, I like hiking, writing, philosophy, music (folk, latin and americana) and film. I also enjoy cooking, although my skills are questionable.
+When I'm not thinkering, I enjoy hiking, philosophy, music (folk, latin and americana) and film. I also like cooking, although my skills are questionable.
 
+:::
+::::
+
+<!-- SARB publication — add back when ready
 I co-authored an [economic note for the SARB](https://www.resbank.co.za/en/home/publications/publication-detail-pages/occasional-bulletin-of-economic-notes/2024/updating-the-sarb-index-of-commodity-prices) on updating the commodity price index. Additional research published internally at the SARB.
+-->
 
-Feel free to [contact me](mailto:hannescoetsee@gmail.com).
+---
+
+## Looking for Expertise?
+
+I work with organisations who need to make sense of data, whether that's building an analysis from scratch, turning numbers into a story, or figuring out what the data is actually saying.
+
+I'm available for:
+
+- **Data analysis & modelling** — economic, geospatial, labour market, time series
+- **Data storytelling** — turning complex findings into clear, compelling narratives
+- **Research & writing** — economic research, policy analysis, long-form writing
+
+[Get in touch](mailto:hannescoetsee@gmail.com?subject=Working%20together){.hire-button}

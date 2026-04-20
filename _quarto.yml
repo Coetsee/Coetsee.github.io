@@ -5,10 +5,13 @@ project:
     - .nojekyll
 
 website:
-  title: "Meditations"
-  description: "Meditations on data, economics, philosophy, and everything else"
+  title: "Hannes Coetsee"
+  description: "Writing on data, economics, philosophy, and everything else"
   site-url: "https://coetsee.github.io"
   navbar:
+    logo: blog_photo.jpg
+    logo-href: about.qmd
+    title: "<span class='brand-stack'><span class='brand-name'>Hannes Coetsee</span><span class='brand-tagline'>Data | Economics | Storytelling</span></span>"
     left:
       - text: "Home"
         href: index.qmd
@@ -16,8 +19,21 @@ website:
         href: cv.qmd
       - text: "About"
         href: about.qmd
+    right:
+      - icon: github
+        href: "https://github.com/Coetsee"
+        aria-label: GitHub
+      - icon: envelope
+        href: "mailto:hannescoetsee@gmail.com"
+        aria-label: Email
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/hannes-coetsee-b520aa169/"
+        aria-label: LinkedIn
+      - text: "<img src='substack.svg' class='navbar-substack-icon' alt='Substack'>"
+        href: "https://hannescoetsee.substack.com"
+        aria-label: Substack
   page-footer:
-    center: "Hannes Coetsee"
+    center: "© 2026"
 
 format:
   html:

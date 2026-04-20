@@ -4,6 +4,7 @@ date: 2025-04-30
 description: "On chronic pain, Merleau-Ponty, the five stages of grief, and what it means to be known."
 categories: [philosophy]
 draft: true
+
 ---
 
 A little over a decade ago, I suffered an unfortunate injury to my left knee. After surgery and ensuing complications, I developed trauma-induced osteoarthritis (OA) — a [diagnosis rare for someone in their teens](https://www.who.int/news-room/fact-sheets/detail/osteoarthritis). This event would alter the very trajectory of my life, and would introduce one of my most constant companions: chronic pain.

@@ -1,5 +1,4 @@
 ---
-title: "Meditations"
 listing:
   contents: posts
   sort: "date desc"

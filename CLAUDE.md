@@ -86,6 +86,12 @@ The blog never imports directly from them. The pattern is:
 Each project directory should have its own `CLAUDE.md` with an **Exports** section.
 Keep project sessions (analysis) and blog sessions (writing) separate.
 
+## Push Policy
+
+This is a public-facing site. Never push to GitHub without the user explicitly saying so for this specific repo. "Commit and push" in a sibling project session does not apply here. The trigger is an unambiguous instruction like "publish Post X" or "push the blog" — and even then, confirm before running `git push`.
+
+Never render `docs/` or modify any file here from within an audioTS or other analysis project session. Blog work happens in its own session opened in this directory.
+
 ## Status (as of March 2026)
 
 - Site is live at https://coetsee.github.io

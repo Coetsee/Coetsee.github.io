@@ -5,10 +5,10 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Meditations</title>
+<title>Hannes Coetsee</title>
 <link>https://coetsee.github.io/</link>
 <atom:link href="https://coetsee.github.io/index.xml" rel="self" type="application/rss+xml"/>
-<description>Meditations on data, economics, philosophy, and everything else</description>
+<description>Writing on data, economics, philosophy, and everything else</description>
 <generator>quarto-1.9.35</generator>
 <lastBuildDate>Sun, 05 Sep 2021 22:00:00 GMT</lastBuildDate>
 <item>

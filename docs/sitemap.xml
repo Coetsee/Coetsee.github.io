@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://coetsee.github.io/index.html</loc>
-    <lastmod>2026-03-16T14:33:39.912Z</lastmod>
+    <lastmod>2026-04-20T14:00:29.383Z</lastmod>
   </url>
   <url>
     <loc>https://coetsee.github.io/about.html</loc>
-    <lastmod>2026-03-26T10:56:48.472Z</lastmod>
+    <lastmod>2026-04-20T14:22:53.062Z</lastmod>
   </url>
   <url>
     <loc>https://coetsee.github.io/cv.html</loc>
@@ -19,5 +19,9 @@
   <url>
     <loc>https://coetsee.github.io/posts/2021-09-06-the-value-of-experience/index.html</loc>
     <lastmod>2026-03-16T14:43:00.636Z</lastmod>
+  </url>
+  <url>
+    <loc>https://coetsee.github.io/ideas/01-what-is-sonification.html</loc>
+    <lastmod>2026-04-20T11:49:36.930Z</lastmod>
   </url>
 </urlset>
